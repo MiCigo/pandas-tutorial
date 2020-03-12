@@ -2,7 +2,7 @@
 @Description: code
 @Author: MiCi
 @Date: 2020-03-12 08:55:59
-@LastEditTime: 2020-03-12 14:58:35
+@LastEditTime: 2020-03-12 15:05:26
 @LastEditors: MiCi
 '''
 
@@ -15,9 +15,9 @@ class Basic1(object):
         return
 
     def basic_use(self):
-        path1 = "./data/chipotle.tsv"
+        path = "./data/chipotle.tsv"
         # 读取数据集
-        chipo = pd.read_csv(path1, sep='\t')
+        chipo = pd.read_csv(path, sep='\t')
 
         # 读取前n行
         print(chipo.head(3))
