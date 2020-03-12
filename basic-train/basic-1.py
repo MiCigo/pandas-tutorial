@@ -2,7 +2,7 @@
 @Description: code
 @Author: MiCi
 @Date: 2020-03-12 08:55:59
-@LastEditTime: 2020-03-12 15:05:26
+@LastEditTime: 2020-03-12 15:20:57
 @LastEditors: MiCi
 '''
 
@@ -22,7 +22,7 @@ class Basic1(object):
         # 读取前n行
         print(chipo.head(3))
 
-        # 读取数据集有多少columns
+        # shape[1]返回列数，shape[0]返回行数，读取columns数量
         print('Columns:', chipo.shape[1])
 
         # 读取数据集列名
