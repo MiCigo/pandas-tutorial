@@ -2,7 +2,7 @@
 @Description: code
 @Author: MiCi
 @Date: 2020-03-13 17:17:47
-@LastEditTime: 2020-03-13 17:47:35
+@LastEditTime: 2020-03-14 08:47:08
 @LastEditors: MiCi
 '''
 
@@ -10,7 +10,7 @@ import pandas as pd
 # import numpy as np
 
 
-class Basic3(object):
+class Basic4(object):
 
     def __init__(self):
         return
@@ -50,5 +50,5 @@ class Basic3(object):
 if __name__ == '__main__':
     print('Start Learn Pandas')
     print('============================\n')
-    example = Basic3()
+    example = Basic4()
     example.basic_use()
